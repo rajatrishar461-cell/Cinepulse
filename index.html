@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinePulse - Your Cinematic Journey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">CinePulse</h1>
+                <div class="header-actions">
+                    <div class="search-container">
+                        <input type="text" placeholder="Search movies..." class="search-bar">
+                        <button class="search-btn">🔍</button>
+                    </div>
+                    <div class="user-profile">
+                        <div class="profile-avatar">👤</div>
+                        <span class="profile-name">User</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#search" class="nav-link">Search</a></li>
+                <li><a href="#community" class="nav-link">Community</a></li>
+                <li><a href="#clubs" class="nav-link">Clubs</a></li>
+                <li><a href="#profile" class="nav-link">Profile</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Homepage Section -->
+        <section id="home" class="page-section active">
+            <!-- Featured Movies Carousel -->
+            <div class="featured-section">
+                <div class="container">
+                    <h2 class="section-title">Featured Movies</h2>
+                    <div class="movie-carousel">
+                        <div class="movie-card featured">
+                            <div class="poster-placeholder">
+                                <div class="poster-content">
+                                    <span class="movie-year">2024</span>
+                                </div>
+                            </div>
+                            <h3 class="movie-title">The Last Horizon</h3>
+                            <p class="movie-description">A breathtaking sci-fi epic that explores the boundaries of human consciousness and the mysteries of the universe.</p>
+                            <div class="movie-actions">
+                                <button class="btn-primary">Add to Watchlist</button>
+                                <div class="emoji-reactions">
+                                    <span class="emoji">😍</span>
+                                    <span class="emoji">🤯</span>
+                                    <span class="emoji">😢</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="movie-card featured">
+                            <div class="poster-placeholder">
+                                <div class="poster-content">
+                                    <span class="movie-year">2023</span>
+                                </div>
+                            </div>
+                            <h3 class="movie-title">Midnight Whispers</h3>
+                            <p class="movie-description">A psychological thriller that delves into the darkest corners of the human mind with stunning cinematography.</p>
+                            <div class="movie-actions">
+                                <button class="btn-primary">Add to Watchlist</button>
+                                <div class="emoji-reactions">
+                                    <span class="emoji">😱</span>
+                                    <span class="emoji">🤔</span>
+                                    <span class="emoji">😰</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="movie-card featured">
+                            <div class="poster-placeholder">
+                                <div class="poster-content">
+                                    <span class="movie-year">2024</span>
+                                </div>
+                            </div>
+                            <h3 class="movie-title">Golden Dreams</h3>
+                            <p class="movie-description">An inspiring drama about chasing dreams against all odds, featuring powerful performances and emotional depth.</p>
+                            <div class="movie-actions">
+                                <button class="btn-primary">Add to Watchlist</button>
+                                <div class="emoji-reactions">
+                                    <span class="emoji">😊</span>
+                                    <span class="emoji">💪</span>
+                                    <span class="emoji">😭</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Filters -->
+            <div class="filters-section">
+                <div class="container">
+                    <h3 class="filters-title">Explore by Mood</h3>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active">All</button>
+                        <button class="filter-btn">Thrilling</button>
+                        <button class="filter-btn">Romantic</button>
+                        <button class="filter-btn">Inspiring</button>
+                        <button class="filter-btn">Mysterious</button>
+                        <button class="filter-btn">Action</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Community Feed -->
+            <div class="community-section">
+                <div class="container">
+                    <h2 class="section-title">Community Feed</h2>
+                    <div class="feed-grid">
+                        <div class="feed-card">
+                            <div class="feed-header">
+                                <div class="user-info">
+                                    <div class="user-avatar">🎬</div>
+                                    <span class="username">MovieLover42</span>
+                                </div>
+                                <span class="post-time">2 hours ago</span>
+                            </div>
+                            <div class="mood-board">
+                                <div class="mood-item">😍</div>
+                                <div class="mood-item">🤯</div>
+                                <div class="mood-item">😢</div>
+                                <div class="mood-item">💫</div>
+                            </div>
+                            <p class="feed-text">Just watched "The Last Horizon" and I'm still processing these emotions! The emotional fingerprint is off the charts! 🌟</p>
+                            <div class="scene-tags">
+                                <span class="scene-tag">Epic Space Scene</span>
+                                <span class="scene-tag">Emotional Climax</span>
+                                <span class="scene-tag">Visual Spectacle</span>
+                            </div>
+                            <div class="feed-actions">
+                                <button class="action-btn">❤️ 24</button>
+                                <button class="action-btn">💬 8</button>
+                                <button class="action-btn">🔄 Share</button>
+                            </div>
+                        </div>
+
+                        <div class="feed-card">
+                            <div class="feed-header">
+                                <div class="user-info">
+                                    <div class="user-avatar">🎭</div>
+                                    <span class="username">CinemaSoul</span>
+                                </div>
+                                <span class="post-time">5 hours ago</span>
+                            </div>
+                            <div class="mood-board">
+                                <div class="mood-item">😱</div>
+                                <div class="mood-item">🤔</div>
+                                <div class="mood-item">😰</div>
+                                <div class="mood-item">🔍</div>
+                            </div>
+                            <p class="feed-text">"Midnight Whispers" left me questioning everything! The psychological depth is incredible. What did you think of the ending?</p>
+                            <div class="scene-tags">
+                                <span class="scene-tag">Plot Twist</span>
+                                <span class="scene-tag">Psychological</span>
+                                <span class="scene-tag">Mind-bending</span>
+                            </div>
+                            <div class="feed-actions">
+                                <button class="action-btn">❤️ 18</button>
+                                <button class="action-btn">💬 12</button>
+                                <button class="action-btn">🔄 Share</button>
+                            </div>
+                        </div>
+
+                        <div class="feed-card">
+                            <div class="feed-header">
+                                <div class="user-info">
+                                    <div class="user-avatar">🌟</div>
+                                    <span class="username">DreamChaser</span>
+                                </div>
+                                <span class="post-time">1 day ago</span>
+                            </div>
+                            <div class="mood-board">
+                                <div class="mood-item">😊</div>
+                                <div class="mood-item">💪</div>
+                                <div class="mood-item">😭</div>
+                                <div class="mood-item">✨</div>
+                            </div>
+                            <p class="feed-text">"Golden Dreams" inspired me to pursue my own goals! The emotional journey was so relatable and uplifting.</p>
+                            <div class="scene-tags">
+                                <span class="scene-tag">Inspirational</span>
+                                <span class="scene-tag">Character Growth</span>
+                                <span class="scene-tag">Motivational</span>
+                            </div>
+                            <div class="feed-actions">
+                                <button class="action-btn">❤️ 31</button>
+                                <button class="action-btn">💬 15</button>
+                                <button class="action-btn">🔄 Share</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search Results Section -->
+        <section id="search" class="page-section">
+            <div class="container">
+                <h2 class="section-title">Search Results</h2>
+                <div class="search-grid">
+                    <div class="movie-card search-result">
+                        <div class="poster-placeholder">
+                            <div class="poster-content">
+                                <span class="movie-year">2024</span>
+                            </div>
+                        </div>
+                        <h3 class="movie-title">Cosmic Odyssey</h3>
+                        <p class="movie-year">2024</p>
+                        <p class="movie-description">An interstellar adventure that takes viewers on a journey through distant galaxies and unknown civilizations.</p>
+                        <div class="rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="rating-text">4.2/5</span>
+                        </div>
+                    </div>
+
+                    <div class="movie-card search-result">
+                        <div class="poster-placeholder">
+                            <div class="poster-content">
+                                <span class="movie-year">2023</span>
+                            </div>
+                        </div>
+                        <h3 class="movie-title">Neon Nights</h3>
+                        <p class="movie-year">2023</p>
+                        <p class="movie-description">A cyberpunk thriller set in a dystopian future where technology and humanity collide in unexpected ways.</p>
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">4.8/5</span>
+                        </div>
+                    </div>
+
+                    <div class="movie-card search-result">
+                        <div class="poster-placeholder">
+                            <div class="poster-content">
+                                <span class="movie-year">2024</span>
+                            </div>
+                        </div>
+                        <h3 class="movie-title">Eternal Echoes</h3>
+                        <p class="movie-year">2024</p>
+                        <p class="movie-description">A haunting romance that transcends time, exploring themes of love, loss, and the power of memory.</p>
+                        <div class="rating">
+                            <span class="stars">★★★☆☆</span>
+                            <span class="rating-text">3.6/5</span>
+                        </div>
+                    </div>
+
+                    <div class="movie-card search-result">
+                        <div class="poster-placeholder">
+                            <div class="poster-content">
+                                <span class="movie-year">2023</span>
+                            </div>
+                        </div>
+                        <h3 class="movie-title">Shadow Warriors</h3>
+                        <p class="movie-year">2023</p>
+                        <p class="movie-description">An action-packed martial arts epic featuring stunning choreography and a compelling story of honor and redemption.</p>
+                        <div class="rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="rating-text">4.1/5</span>
+                        </div>
+                    </div>
+
+                    <div class="movie-card search-result">
+                        <div class="poster-placeholder">
+                            <div class="poster-content">
+                                <span class="movie-year">2024</span>
+                            </div>
+                        </div>
+                        <h3 class="movie-title">Digital Dreams</h3>
+                        <p class="movie-year">2024</p>
+                        <p class="movie-description">A mind-bending sci-fi exploration of virtual reality and the nature of consciousness in the digital age.</p>
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">4.7/5</span>
+                        </div>
+                    </div>
+
+                    <div class="movie-card search-result">
+                        <div class="poster-placeholder">
+                            <div class="poster-content">
+                                <span class="movie-year">2023</span>
+                            </div>
+                        </div>
+                        <h3 class="movie-title">Whispered Secrets</h3>
+                        <p class="movie-year">2023</p>
+                        <p class="movie-description">A gripping mystery that unfolds through a series of interconnected stories and hidden truths.</p>
+                        <div class="rating">
+                            <span class="stars">★★★☆☆</span>
+                            <span class="rating-text">3.9/5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Movie Detail Section -->
+        <section id="movie-detail" class="page-section">
+            <div class="container">
+                <div class="movie-detail-content">
+                    <div class="movie-poster">
+                        <div class="poster-placeholder large">
+                            <div class="poster-content">
+                                <span class="movie-year">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h1 class="movie-title-large">The Last Horizon</h1>
+                        <p class="movie-year-large">2024</p>
+                        <div class="rating-large">
+                            <span class="stars-large">★★★★☆</span>
+                            <span class="rating-text-large">4.2/5</span>
+                        </div>
+                        <div class="emotional-fingerprint">
+                            <h3>Emotional Fingerprint</h3>
+                            <div class="fingerprint-chart">
+                                <div class="emotion-bar">
+                                    <span class="emotion-label">Excitement</span>
+                                    <div class="bar-container">
+                                        <div class="bar" style="width: 85%"></div>
+                                    </div>
+                                    <span class="emotion-value">85%</span>
+                                </div>
+                                <div class="emotion-bar">
+                                    <span class="emotion-label">Wonder</span>
+                                    <div class="bar-container">
+                                        <div class="bar" style="width: 92%"></div>
+                                    </div>
+                                    <span class="emotion-value">92%</span>
+                                </div>
+                                <div class="emotion-bar">
+                                    <span class="emotion-label">Nostalgia</span>
+                                    <div class="bar-container">
+                                        <div class="bar" style="width: 68%"></div>
+                                    </div>
+                                    <span class="emotion-value">68%</span>
+                                </div>
+                                <div class="emotion-bar">
+                                    <span class="emotion-label">Tension</span>
+                                    <div class="bar-container">
+                                        <div class="bar" style="width: 76%"></div>
+                                    </div>
+                                    <span class="emotion-value">76%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="movie-actions-large">
+                            <button class="btn-primary">Add to Watchlist</button>
+                            <button class="btn-secondary">Leave Review</button>
+                            <div class="emoji-reactions-large">
+                                <span class="emoji">😍</span>
+                                <span class="emoji">🤯</span>
+                                <span class="emoji">😢</span>
+                                <span class="emoji">💫</span>
+                            </div>
+                        </div>
+                        <div class="reviews-section">
+                            <h3>Recent Reviews</h3>
+                            <div class="review-card">
+                                <div class="review-header">
+                                    <span class="reviewer">MovieLover42</span>
+                                    <span class="review-rating">★★★★☆</span>
+                                </div>
+                                <p class="review-text">"Absolutely breathtaking! The visual effects and emotional depth had me on the edge of my seat throughout."</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="review-header">
+                                    <span class="reviewer">CinemaSoul</span>
+                                    <span class="review-rating">★★★★★</span>
+                                </div>
+                                <p class="review-text">"A masterpiece of storytelling. The way it explores consciousness and the universe is truly remarkable."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="scene-tags-section">
+                    <h3>Scene Tags</h3>
+                    <div class="scene-tags-grid">
+                        <div class="scene-tag-card">
+                            <h4>Epic Space Battle</h4>
+                            <p>Spectacular visual effects and intense action sequences that showcase the vastness of space.</p>
+                            <div class="scene-stats">
+                                <span class="tag-count">127 tags</span>
+                                <span class="reaction-count">😍 89</span>
+                            </div>
+                        </div>
+                        <div class="scene-tag-card">
+                            <h4>Emotional Climax</h4>
+                            <p>The moment where all character arcs converge in a powerful, tear-jerking sequence.</p>
+                            <div class="scene-stats">
+                                <span class="tag-count">95 tags</span>
+                                <span class="reaction-count">😢 67</span>
+                            </div>
+                        </div>
+                        <div class="scene-tag-card">
+                            <h4>Visual Spectacle</h4>
+                            <p>Stunning cinematography and breathtaking landscapes that define the film's visual identity.</p>
+                            <div class="scene-stats">
+                                <span class="tag-count">203 tags</span>
+                                <span class="reaction-count">🤯 156</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Profile Section -->
+        <section id="profile" class="page-section">
+            <div class="container">
+                <div class="profile-header">
+                    <div class="profile-avatar-large">👤</div>
+                    <div class="profile-info">
+                        <h2>Your Profile</h2>
+                        <p class="profile-stats">Movies Watched: 247 | Reviews: 89 | Favorites: 156</p>
+                    </div>
+                </div>
+                
+                <div class="profile-sections">
+                    <div class="watchlist-section">
+                        <h3>Your Watchlist</h3>
+                        <div class="watchlist-grid">
+                            <div class="movie-card watchlist">
+                                <div class="poster-placeholder">
+                                    <div class="poster-content">
+                                        <span class="movie-year">2024</span>
+                                    </div>
+                                </div>
+                                <h4 class="movie-title">The Last Horizon</h4>
+                            </div>
+                            <div class="movie-card watchlist">
+                                <div class="poster-placeholder">
+                                    <div class="poster-content">
+                                        <span class="movie-year">2023</span>
+                                    </div>
+                                </div>
+                                <h4 class="movie-title">Midnight Whispers</h4>
+                            </div>
+                            <div class="movie-card watchlist">
+                                <div class="poster-placeholder">
+                                    <div class="poster-content">
+                                        <span class="movie-year">2024</span>
+                                    </div>
+                                </div>
+                                <h4 class="movie-title">Golden Dreams</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mood-boards-section">
+                        <h3>Your Mood Boards</h3>
+                        <div class="mood-boards-grid">
+                            <div class="mood-board-card">
+                                <h4>Sci-Fi Adventures</h4>
+                                <div class="mood-board-preview">
+                                    <div class="mood-item">🚀</div>
+                                    <div class="mood-item">🌟</div>
+                                    <div class="mood-item">👽</div>
+                                    <div class="mood-item">🌌</div>
+                                </div>
+                                <p>12 movies</p>
+                            </div>
+                            <div class="mood-board-card">
+                                <h4>Emotional Journeys</h4>
+                                <div class="mood-board-preview">
+                                    <div class="mood-item">😢</div>
+                                    <div class="mood-item">😊</div>
+                                    <div class="mood-item">💕</div>
+                                    <div class="mood-item">✨</div>
+                                </div>
+                                <p>8 movies</p>
+                            </div>
+                            <div class="mood-board-card">
+                                <h4>Mind-Bending Thrillers</h4>
+                                <div class="mood-board-preview">
+                                    <div class="mood-item">🤯</div>
+                                    <div class="mood-item">😱</div>
+                                    <div class="mood-item">🤔</div>
+                                    <div class="mood-item">🔍</div>
+                                </div>
+                                <p>15 movies</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community/Clubs Section -->
+        <section id="community" class="page-section">
+            <div class="container">
+                <h2 class="section-title">Community & Clubs</h2>
+                
+                <div class="clubs-section">
+                    <h3>Join a Club</h3>
+                    <div class="clubs-grid">
+                        <div class="club-card">
+                            <h4>Sci-Fi Enthusiasts</h4>
+                            <p>1,247 members</p>
+                            <div class="club-activity">
+                                <span class="activity-item">🔥 15 new posts today</span>
+                                <span class="activity-item">📊 Weekly Poll: Best Space Movie</span>
+                            </div>
+                            <button class="btn-primary">Join Club</button>
+                        </div>
+                        <div class="club-card">
+                            <h4>Emotional Cinema</h4>
+                            <p>892 members</p>
+                            <div class="club-activity">
+                                <span class="activity-item">💬 8 discussions active</span>
+                                <span class="activity-item">🎭 Mood Board Challenge</span>
+                            </div>
+                            <button class="btn-primary">Join Club</button>
+                        </div>
+                        <div class="club-card">
+                            <h4>Thriller Masters</h4>
+                            <p>1,156 members</p>
+                            <div class="club-activity">
+                                <span class="activity-item">🔍 Scene Analysis</span>
+                                <span class="activity-item">🏆 Monthly Awards</span>
+                            </div>
+                            <button class="btn-primary">Join Club</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="polls-section">
+                    <h3>Community Polls</h3>
+                    <div class="polls-grid">
+                        <div class="poll-card">
+                            <h4>What's your favorite movie genre?</h4>
+                            <div class="poll-options">
+                                <div class="poll-option">
+                                    <span class="option-text">Sci-Fi</span>
+                                    <div class="poll-bar">
+                                        <div class="poll-fill" style="width: 35%"></div>
+                                    </div>
+                                    <span class="option-percent">35%</span>
+                                </div>
+                                <div class="poll-option">
+                                    <span class="option-text">Thriller</span>
+                                    <div class="poll-bar">
+                                        <div class="poll-fill" style="width: 28%"></div>
+                                    </div>
+                                    <span class="option-percent">28%</span>
+                                </div>
+                                <div class="poll-option">
+                                    <span class="option-text">Drama</span>
+                                    <div class="poll-bar">
+                                        <div class="poll-fill" style="width: 22%"></div>
+                                    </div>
+                                    <span class="option-percent">22%</span>
+                                </div>
+                                <div class="poll-option">
+                                    <span class="option-text">Action</span>
+                                    <div class="poll-bar">
+                                        <div class="poll-fill" style="width: 15%"></div>
+                                    </div>
+                                    <span class="option-percent">15%</span>
+                                </div>
+                            </div>
+                            <p class="poll-votes">1,247 votes</p>
+                        </div>
+                        
+                        <div class="poll-card">
+                            <h4>Which scene from "The Last Horizon" was most impactful?</h4>
+                            <div class="poll-options">
+                                <div class="poll-option">
+                                    <span class="option-text">Space Battle</span>
+                                    <div class="poll-bar">
+                                        <div class="poll-fill" style="width: 45%"></div>
+                                    </div>
+                                    <span class="option-percent">45%</span>
+                                </div>
+                                <div class="poll-option">
+                                    <span class="option-text">Emotional Climax</span>
+                                    <div class="poll-bar">
+                                        <div class="poll-fill" style="width: 38%"></div>
+                                    </div>
+                                    <span class="option-percent">38%</span>
+                                </div>
+                                <div class="poll-option">
+                                    <span class="option-text">Opening Sequence</span>
+                                    <div class="poll-bar">
+                                        <div class="poll-fill" style="width: 17%"></div>
+                                    </div>
+                                    <span class="option-percent">17%</span>
+                                </div>
+                            </div>
+                            <p class="poll-votes">892 votes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
